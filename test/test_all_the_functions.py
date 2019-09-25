@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_average_list(self):
         s_list = [12, 13]
-        self.assertEqual(12.5, average_list([s_list]))
+        self.assertEqual(12.5, average_list(s_list))
 
 
 if __name__ == '__main__':
