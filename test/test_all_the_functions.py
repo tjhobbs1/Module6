@@ -5,6 +5,7 @@ from source_files.functions_all_the_functions import average, average_list
 
 
 class MyTestCase(unittest.TestCase):
+    #Test Case
     def test_average_no_args(self):
         with mock.patch('builtins.input', side_effect=[12, 13]):
             assert average() == 12.5
